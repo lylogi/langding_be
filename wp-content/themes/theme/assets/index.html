@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1&appId=154760195188091&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <header>
+        <div id="menu-mobile" class="menu-mobile d-block d-lg-none">
+            <div class="nav_mobile">
+                <h2>
+                    <img src="images/Untitled-1.png" alt="logo">
+                    <i class="fa fa-times" aria-hidden="true" onclick="closeNav()"></i>
+        
+                </h2>
+                <div class="search-mb">
+                    <form action="">
+                        <input type="search" placeholder="Tìm sản phẩm" class="search">
+                        <button type="submit" class="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+                <ul>
+                    <li class="active">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="#">Dịch vụ</a>
+                        <ul>
+                                <li><a href="#">Triệt lông và Trẻ hóa da</a></li>
+                                <li><a href="#">Trị da bằng Lazer ND YAG Q-Switch</a></li>
+                                <li><a href="#">Công nghệ nâng cao UR Thera 5X</a></li>
+                                <li><a href="#">Trị sẹo bằng Lazer CO2 Fractional</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <a href="#">Khuyến mãi</a>
+                    </li>
+                    <li>
+                        <a href="#">Hình ảnh</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            
+        <div class="top">
+            <div class="container">
+                <ul class="social social--top">
+                    <li class="item--social">
+                        <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="item--social">
+                        <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="item--social">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="item--social">
+                        <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="img--banner">
+                <img src="image/banner-top-1-new.png" alt="">
+            </div>
+            <div class="text--banner">
+                <h1 class="title--banner">Phụ bì khang</h1>
+                <p class="desc--banner d-none d-md-inline-block"> Hỗ trợ điều trị mề đay</p>
+            </div>
+        </div>
+        <div class="menu--top">
+            <div class="container">
+                <div class="open-nav d-block d-lg-none" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <ul class="navbar d-none d-lg-flex">
+                    <li><a href="#section-1">Dị ứng</a></li>
+                    <li><a href="#section-1">Mẩn ngứa</a></li>
+                    <li><a href="#section-1">Nổi mề đay</a></li>
+                    <li><a href="#section-4">Ý kiến chuyên gia</a></li>
+                    <li><a href="#section-5">Bệnh nhận chia sẻ</a></li>
+                    <li><a href="#section-6">Hỏi đáp</a></li>
+                    <li><a href="#section-7">Liên hệ</a></li>
+                    <li><a href="#section-8">Đặt hàng</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="img--banner">
+                <img src="image/banner-top-3-new.png" alt="">
+            </div>
+            <div class="text--banner">
+                <p class="hotline--banner">0981320797</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slide--service" id="section-1">
+            <div class="container">
+                <div class="main--title slideInDown wow">
+                    <h3>Các vấn đề rối loạn của trẻ nhỏ</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 slideInDown wow " data-wow-duration="2s" data-wow-delay="0s" >
+                        <div class="item--slide">
+                            <div class="image--slide">
+                                <a href="#">
+                                    <img src="image/cham-noi.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="text--slide">
+                                <h3 class="title--slide">Chậm nói</h3>
+                                <p class="desc--slide">Là khả năng nói của trẻ chậm hơn so với mốc phát triển thông thường.
+                                    Chậm nói bao gồm chậm nói đơn thuần hoặc chậm nói do tự kỷ.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 slideInDown wow " data-wow-duration="2s" data-wow-delay="0.5s">
+                            <div class="item--slide">
+                                <div class="image--slide">
+                                    <a href="#">
+                                        <img src="image/cham-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text--slide">
+                                    <h3 class="title--slide">Chậm nói</h3>
+                                    <p class="desc--slide">Là khả năng nói của trẻ chậm hơn so với mốc phát triển thông thường.
+                                        Chậm nói bao gồm chậm nói đơn thuần hoặc chậm nói do tự kỷ.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 slideInDown wow" data-wow-duration="2s" data-wow-delay="1s">
+                            <div class="item--slide">
+                                <div class="image--slide">
+                                    <a href="#">
+                                        <img src="image/cham-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text--slide">
+                                    <h3 class="title--slide">Chậm nói</h3>
+                                    <p class="desc--slide">Là khả năng nói của trẻ chậm hơn so với mốc phát triển thông thường.
+                                        Chậm nói bao gồm chậm nói đơn thuần hoặc chậm nói do tự kỷ.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 slideInDown wow" data-wow-duration="2s" data-wow-delay="1.5s">
+                            <div class="item--slide">
+                                <div class="image--slide">
+                                    <a href="#">
+                                        <img src="image/cham-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text--slide">
+                                    <h3 class="title--slide">Chậm nói</h3>
+                                    <p class="desc--slide">Là khả năng nói của trẻ chậm hơn so với mốc phát triển thông thường.
+                                        Chậm nói bao gồm chậm nói đơn thuần hoặc chậm nói do tự kỷ.</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide--banner" id="section-2">
+            <div class="container">
+                <div class="main--title slideInDown wow" data-wow-duration="2s">
+                    <h3>NẾU BẠN KHÔNG ĐIỀU TRỊ ĐÚNG PHƯƠNG PHÁP bạn sẽ thế nào?</h3>
+                </div>
+                <div class="owl-carousel owl-theme slide--banner--js slideInLeft wow" data-wow-duration="2s">
+                    <div class="item--slide--banner">
+                        <div class="img--slide--banner">
+                            <img src="image/phu-thuoc.png" alt="">
+                        </div>
+                        <div class="text--slide--banner">
+                            <p>Ngứa và mề đay lan rộng Ảnh hưởng đến chất lượng cuộc sống và sinh hoạt hàng ngày như mất ngủ, khó chịu. Ngứa gãi liên tục gây xước, thâm da, nhiễm trùng lở loét, gây sẹo.</p>
+                        </div>
+                    </div>
+                    <div class="item--slide--banner">
+                        <div class="img--slide--banner">
+                            <img src="image/phu-thuoc.png" alt="">
+                        </div>
+                        <div class="text--slide--banner">
+                            <p>Ngứa và mề đay lan rộng Ảnh hưởng đến chất lượng cuộc sống và sinh hoạt hàng ngày như mất ngủ, khó chịu. Ngứa gãi liên tục gây xước, thâm da, nhiễm trùng lở loét, gây sẹo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product" id="section-3">
+            <div class="container">
+                <h3 class="title-product slideInDown wow" data-wow-duration="2s">PHỤ BÌ KHANG - GIẢI PHÁP ĐIỀU TRỊ TẬN GỐC RỄ BỆNH DỊ ỨNG, MẨN NGỨA, NỔI MỀ ĐAY – CHỐNG TÁI PHÁT BỆNH</h3>
+                <div class="img-prodcut slideInUp wow">
+                    <img src="image/vnk_01.png" alt="">
+                </div>
+                <div class="list-product">
+                    <h3 class="title-list-product slideInUp wow" data-wow-duration="2s">
+                        LIỆU PHÁP ĐÔNG TÂY Y KẾT HỢP
+                    </h3>
+                    <div class="row">
+                        <div class="col-md-4 slideInDown wow" data-wow-duration="2s">
+                            <div class="item-product bg_1">
+                                <h3 class="title-item-product"> <strong> Cao nhàu: </strong>120mg </h3>
+                                <div class="content-product">
+                                    <ul>
+                                        <li>Nhàu chứa hơn 150 vitamin và khoáng chất như: beta-carotene, canxi, acid linoleic, các vitamin nhóm B và các chất COXH như vitamin C,… giúp cơ thể loại bỏ độc tố và chống gốc tự do.</li>
+                                        <li> Ngoài ra, Nhàu chứa hợp chất prexonine, hợp chất này khi kết hợp với enzym prexoronase (có trong dạ dày) sẽ tạo thành chất xeronine, giúp duy trì sự vận hành bình thường của các tế bào trong cơ thể, giúp cơ thể khỏe mạnh, chống lại bệnh tật.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 slideInDown wow" data-wow-duration="2s" data-wow-delay="1s">
+                            <div class="item-product bg_2">
+                                <h3 class="title-item-product"> <strong> Cao nhàu: </strong>120mg </h3>
+                                <div class="content-product">
+                                    <ul>
+                                        <li>Nhàu chứa hơn 150 vitamin và khoáng chất như: beta-carotene, canxi, acid linoleic, các vitamin nhóm B và các chất COXH như vitamin C,… giúp cơ thể loại bỏ độc tố và chống gốc tự do.</li>
+                                        <li> Ngoài ra, Nhàu chứa hợp chất prexonine, hợp chất này khi kết hợp với enzym prexoronase (có trong dạ dày) sẽ tạo thành chất xeronine, giúp duy trì sự vận hành bình thường của các tế bào trong cơ thể, giúp cơ thể khỏe mạnh, chống lại bệnh tật.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 slideInDown wow" data-wow-duration="2s" data-wow-delay="2s">
+                            <div class="item-product bg_3">
+                                <h3 class="title-item-product"> <strong> Cao nhàu: </strong>120mg </h3>
+                                <div class="content-product">
+                                    <ul>
+                                        <li>Nhàu chứa hơn 150 vitamin và khoáng chất như: beta-carotene, canxi, acid linoleic, các vitamin nhóm B và các chất COXH như vitamin C,… giúp cơ thể loại bỏ độc tố và chống gốc tự do.</li>
+                                        <li> Ngoài ra, Nhàu chứa hợp chất prexonine, hợp chất này khi kết hợp với enzym prexoronase (có trong dạ dày) sẽ tạo thành chất xeronine, giúp duy trì sự vận hành bình thường của các tế bào trong cơ thể, giúp cơ thể khỏe mạnh, chống lại bệnh tật.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/bg_start.png" alt="" class="line-star">
+                    <h3 class="title-list-product slideInDown wow" data-wow-duration="2s">
+                        TẠO NÊN HIỆU QUẢ VƯỢT TRỘI
+                    </h3>
+                    <ul class="hieu-qua slideInDown wow" data-wow-duration="2s">
+                        <li class="slideInLeft wow">Tăng cường chức năng gan -  giải độc của cơ thể</li>
+                        <li class="slideInRight wow">Tăng cường chức năng thận - đào thải chất độc</li>
+                        <li class="slideInLeft wow" ddata-wow-delay="1s">Tăng cường năng lượng tế bào, tăng khả năng miễn dịch</li>
+                        <li class="slideInRight wow" data-wow-delay="1s">Giảm các triệu chứng và tác động vào nguyên nhân gây bệnh, hỗ trợ điều trị tận gốc, ngăn ngừa tái phát</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="kiem-chung" id="section-4">
+            <div class="container">
+                <div class="main--title slideInUp wow" data-wow-duration="2s">
+                    <h3>PHỤ BÌ KHANG - TPCN DUY NHẤT ĐƯỢC KIỂM CHỨNG LÂM SÀNG TẠI 3 BỆNH VIỆN DA LIỄU ĐẦU NGÀNH</h3>
+                </div>
+                <div class="img-kiem-chung">
+                    <div class="row">
+                        <div class="col-md-4 slideInUp wow" data-wow-duration="2s" data-wow-delay="0s">
+                            <div class="item--slide">
+                                <div class="image--slide">
+                                    <a href="#">
+                                        <img src="image/kham-mien-phi-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text--slide">
+                                    <p class="desc--slide">Là khả năng nói của trẻ chậm hơn so với mốc phát triển thông thường.
+                                        Chậm nói bao gồm chậm nói đơn thuần hoặc chậm nói do tự kỷ.</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-md-4 slideInUp wow" data-wow-duration="2s" data-wow-delay="0.5s">
+                            <div class="item--slide">
+                                <div class="image--slide">
+                                    <a href="#">
+                                        <img src="image/kham-mien-phi-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text--slide">
+                                    <p class="desc--slide">Là khả năng nói của trẻ chậm hơn so với mốc phát triển thông thường.
+                                        Chậm nói bao gồm chậm nói đơn thuần hoặc chậm nói do tự kỷ.</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-md-4 slideInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                            <div class="item--slide">
+                                <div class="image--slide">
+                                    <a href="#">
+                                        <img src="image/kham-mien-phi-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text--slide">
+                                    <p class="desc--slide">Là khả năng nói của trẻ chậm hơn so với mốc phát triển thông thường.
+                                        Chậm nói bao gồm chậm nói đơn thuần hoặc chậm nói do tự kỷ.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-chuyen-gia" id="section-5">
+            <div class="container">
+                <div class="main--title slideInDown wow" data-wow-duration="2s">
+                    <h3>ĐƯỢC CÁC CHUYÊN GIA ĐẦU NGÀNH KHUYÊN DÙNG</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 slideILeft wow" data-wow-duration="2s">
+                        <div class="text">
+                            <h4>Giải pháp cho bệnh mề đay - Sống Khỏe Mỗi Ngày VTV2</h4>
+                            <p>Phụ Bì Khang giải pháp cho bệnh mề đay mẩn ngứa tái phát</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7 slideInRight wow" data-wow-duration="2s">
+                        <iframe src="https://www.youtube.com/embed/fWjkCFqZuCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="khach-hang" id="section-6">
+            <div class="container">
+                <div class="main--title slideInDown wow" data-wow-duration="2s">
+                    <h3>HÀNG NGÀN KHÁCH HÀNG ĐÃ TIN DÙNG VÀ PHẢN HỒI TÍCH CỰC</h3>
+                </div>
+                <div class="slide-khach-hang owl-carousel owl-theme wow" data-wow-duration="2s">
+                    <div class="item-khach-hang">
+                        <div class="img-khach-hang">
+                            <img src="image/thu_trang_ts_quyen_nang_phai_dep_4_fedu.png" alt="">
+                        </div>
+                        <div class="comment">
+                            <p>“Nếu không có Phụ Bì Khang, chắc con nhà tui vẫn phải khổ sở vì căn bệnh khó chịu này. Mừng hết lớn khi thấy cháu vui vẻ, ăn ngủ, học hành tốt trở lại, thậm chí mập mạp hẵn ra. Hơn nữa, từ hiệu quả đối với cháu, tui cũng giúp được nhiều trường hợp trong vùng khi chia xẻ kinh nghiệm sử dụng Phụ Bì Khang. Họ đã uống đâu 4-6 hộp thôi và hết nhanh hơn cháu nhà tui. Có lẽ con tui bị nặng hơn, nhưng bây giờ cháu đã hết bệnh, gia đình tui rất vui. Thế là hết nỗi lo mề đay , mẩn ngứa của con, chúng tui cũng yên tâm để làm việc ”</p>
+                        </div>
+                    </div>
+                    <div class="item-khach-hang">
+                        <div class="img-khach-hang">
+                            <img src="image/Bi-quyet-tre-dep-cua-quy-ba-den-nguong-tuoi-50-1.jpg" alt="">
+                        </div>
+                        <div class="comment">
+                            <p>“Nếu không có Phụ Bì Khang, chắc con nhà tui vẫn phải khổ sở vì căn bệnh khó chịu này. Mừng hết lớn khi thấy cháu vui vẻ, ăn ngủ, học hành tốt trở lại, thậm chí mập mạp hẵn ra. Hơn nữa, từ hiệu quả đối với cháu, tui cũng giúp được nhiều trường hợp trong vùng khi chia xẻ kinh nghiệm sử dụng Phụ Bì Khang. Họ đã uống đâu 4-6 hộp thôi và hết nhanh hơn cháu nhà tui. Có lẽ con tui bị nặng hơn, nhưng bây giờ cháu đã hết bệnh, gia đình tui rất vui. Thế là hết nỗi lo mề đay , mẩn ngứa của con, chúng tui cũng yên tâm để làm việc ”</p>
+                        </div>
+                        </div>
+                    <div class="item-khach-hang">
+                            <div class="img-khach-hang">
+                                    <img src="image/thu_trang_ts_quyen_nang_phai_dep_4_fedu.png" alt="">
+                                </div>
+                        <div class="comment">
+                            <p>“Nếu không có Phụ Bì Khang, chắc con nhà tui vẫn phải khổ sở vì căn bệnh khó chịu này. Mừng hết lớn khi thấy cháu vui vẻ, ăn ngủ, học hành tốt trở lại, thậm chí mập mạp hẵn ra. Hơn nữa, từ hiệu quả đối với cháu, tui cũng giúp được nhiều trường hợp trong vùng khi chia xẻ kinh nghiệm sử dụng Phụ Bì Khang. Họ đã uống đâu 4-6 hộp thôi và hết nhanh hơn cháu nhà tui. Có lẽ con tui bị nặng hơn, nhưng bây giờ cháu đã hết bệnh, gia đình tui rất vui. Thế là hết nỗi lo mề đay , mẩn ngứa của con, chúng tui cũng yên tâm để làm việc ”</p>
+                        </div>
+                    </div>
+                    <div class="item-khach-hang">
+                        <div class="img-khach-hang">
+                            <img src="image/Bi-quyet-tre-dep-cua-quy-ba-den-nguong-tuoi-50-1.jpg" alt="">
+                        </div>
+                        <div class="comment">
+                            <p>“Nếu không có Phụ Bì Khang, chắc con nhà tui vẫn phải khổ sở vì căn bệnh khó chịu này. Mừng hết lớn khi thấy cháu vui vẻ, ăn ngủ, học hành tốt trở lại, thậm chí mập mạp hẵn ra. Hơn nữa, từ hiệu quả đối với cháu, tui cũng giúp được nhiều trường hợp trong vùng khi chia xẻ kinh nghiệm sử dụng Phụ Bì Khang. Họ đã uống đâu 4-6 hộp thôi và hết nhanh hơn cháu nhà tui. Có lẽ con tui bị nặng hơn, nhưng bây giờ cháu đã hết bệnh, gia đình tui rất vui. Thế là hết nỗi lo mề đay , mẩn ngứa của con, chúng tui cũng yên tâm để làm việc ”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thac-mac" id="section-7">
+            <div class="container">
+                <div class="main--title slideInDown wow" data-wow-duration="2s">
+                    <h3>HÀNG NGÀN KHÁCH HÀNG ĐÃ TIN DÙNG VÀ PHẢN HỒI TÍCH CỰC</h3>
+                </div>
+                <div class="list-cau-hoi">
+                    <div class="row">
+                        <div class="col-md-6 slideInLeft wow" data-wow-duration="2s">
+                            <div class="cau-hoi">
+                                <h3 class="question">Tại sao tôi nên sử dụng Phụ Bì Khang?</h3>
+                                <div class="anwser">
+                                    <p>- Phụ Bì Khang được nghiên cứu ghi nhận hiệu quả tại 3 BV Da liễu đầu ngành </p>
+                                    <p>- An toàn, hiệu quả, dễ sử dụng</p>
+                                    <p>- Hiệu quả cao chỉ sau 1 liệu trình sử dụng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 slideInRight wow" data-wow-duration="2s">
+                            <div class="cau-hoi">
+                                <h3 class="question">Tại sao tôi nên sử dụng Phụ Bì Khang?</h3>
+                                <div class="anwser">
+                                    <p>- Phụ Bì Khang được nghiên cứu ghi nhận hiệu quả tại 3 BV Da liễu đầu ngành </p>
+                                    <p>- An toàn, hiệu quả, dễ sử dụng</p>
+                                    <p>- Hiệu quả cao chỉ sau 1 liệu trình sử dụng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 slideInLeft wow" data-wow-duration="2s" data-wow-delay="1s">
+                            <div class="cau-hoi">
+                                <h3 class="question">Tại sao tôi nên sử dụng Phụ Bì Khang?</h3>
+                                <div class="anwser">
+                                    <p>- Phụ Bì Khang được nghiên cứu ghi nhận hiệu quả tại 3 BV Da liễu đầu ngành </p>
+                                    <p>- An toàn, hiệu quả, dễ sử dụng</p>
+                                    <p>- Hiệu quả cao chỉ sau 1 liệu trình sử dụng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 slideInRight wow" data-wow-duration="1s" data-wow-delay="1s">
+                            <div class="cau-hoi">
+                                <h3 class="question">Tại sao tôi nên sử dụng Phụ Bì Khang?</h3>
+                                <div class="anwser">
+                                    <p>- Phụ Bì Khang được nghiên cứu ghi nhận hiệu quả tại 3 BV Da liễu đầu ngành </p>
+                                    <p>- An toàn, hiệu quả, dễ sử dụng</p>
+                                    <p>- Hiệu quả cao chỉ sau 1 liệu trình sử dụng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 slideInLeft wow" data-wow-duration="2s" data-wow-delay="2s">
+                            <div class="cau-hoi">
+                                <h3 class="question">Tại sao tôi nên sử dụng Phụ Bì Khang?</h3>
+                                <div class="anwser">
+                                    <p>- Phụ Bì Khang được nghiên cứu ghi nhận hiệu quả tại 3 BV Da liễu đầu ngành </p>
+                                    <p>- An toàn, hiệu quả, dễ sử dụng</p>
+                                    <p>- Hiệu quả cao chỉ sau 1 liệu trình sử dụng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 slideInRight wow" data-wow-duration="2s" data-wow-delay="2s">
+                            <div class="cau-hoi">
+                                <h3 class="question">Tại sao tôi nên sử dụng Phụ Bì Khang?</h3>
+                                <div class="anwser">
+                                    <p>- Phụ Bì Khang được nghiên cứu ghi nhận hiệu quả tại 3 BV Da liễu đầu ngành </p>
+                                    <p>- An toàn, hiệu quả, dễ sử dụng</p>
+                                    <p>- Hiệu quả cao chỉ sau 1 liệu trình sử dụng</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bang-gia" id="section-8">
+            <div class="container">
+                <div class="main--title slideInUp wow" data-wow-duration="2s">
+                    <h3>ĐẶT MUA NGAY PHỤ BÌ KHANG</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 slideInLeft wow" data-wow-duration="2s">
+                        <div class="cach-mua">
+                            <h4>Bằng cách</h4>
+                            <p> - Điền và form thông tin liên hệ dưới đây</p>
+                            <p> - Gọi trực tiếp đến hotline 0969 644 576</p>
+                            <p>Bộ phận bán hàng sẽ liên hệ trong thời gian sớm nhất</p>
+                            <p> Giao hàng - thu tiền</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 slideInRight wow" data-wow-duration="2s">
+                        <div class="gia">
+                            <img src="image/vnk_01.png" alt="">
+                            <h5 class="price">
+                                185.000 VNĐ/ hộp
+                            </h5>
+                            <p>Freeship đơn hàng từ 6 hộp trở lên</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 slideInLeft wow" data-wow-duration="2s">
+                        <div class="form-dat-hang">
+                            <h3>Form đặt đơn hàng</h3>
+                            <h3>Bạn còn chần chừ gì nữa ?</h3>
+                            <p>Hãy đặt mua TPCN Phụ Bì Khang ngay hôm nay để không còn bị 
+                                    những cơn ngứa hành hạ thêm 1 lần nào nữa</p>
+                            <form action="" class="form">
+                                <input type="text" placeholder="Tên">
+                                <input type="text" placeholder="Số điện thoại">
+                                <input type="email" placeholder="Email">
+                                <input type="text" placeholder="Địa chỉ nhận hàng">
+                                <input type="number" placeholder="Số lượng">
+                                <input type="submit" value="Đặt hàng">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 offset-lg-2 slideInRight wow" data-wow-duration="2s">
+                        <div class="fb-page" data-href="https://www.facebook.com/PhuBiKhang/" data-tabs="timeline" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/PhuBiKhang/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PhuBiKhang/">Phụ Bì Khang - Hỗ trợ điều trị mề đay, ngăn ngừa tái phát</a></blockquote></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="main--title slideInUp wow" data-wow-duration="2s">
+                    <h3>ĐẶT MUA NGAY PHỤ BÌ KHANG</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 slideInUp wow" data-wow-duration="2s" >
+                        <div class="item-ft">
+                            <div class="img"><img src="image/bt-icon-dienthoai.png" alt=""></div>
+                            <h3>Điện thoại</h3>
+                            <p>0969 644 576</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 slideInUp wow" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <div class="item-ft">
+                            <div class="img"><img src="image/bt-icon-dienthoai.png" alt=""></div>
+                            <h3>Điện thoại</h3>
+                            <p>0969 644 576</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 slideInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                        <div class="item-ft">
+                            <div class="img"><img src="image/bt-icon-dienthoai.png" alt=""></div>
+                            <h3>Điện thoại</h3>
+                            <p>0969 644 576</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 slideInUp wow" data-wow-duration="2s" data-wow-delay="1.5s">
+                        <div class="item-ft">
+                            <div class="img"><img src="image/bt-icon-dienthoai.png" alt=""></div>
+                            <h3>Điện thoại</h3>
+                            <p>0969 644 576</p>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="node_modules/wowjs/dist/wow.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

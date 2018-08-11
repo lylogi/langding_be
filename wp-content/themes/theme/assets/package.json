@@ -1,0 +1,18 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.1.3",
+    "font-awesome": "^4.7.0",
+    "owl.carousel": "^2.3.4",
+    "wowjs": "^1.1.3"
+  }
+}
